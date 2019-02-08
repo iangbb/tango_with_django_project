@@ -7,6 +7,7 @@
 
 {% block body_block %}
   <p>Rango says here is the about page<br /></p>
+  <p>Visits: {{ visits }}</p>
   <img src="{% static "images/rango2.jpg" %}" alt="Picture of Rango 2" /><br />
   <img src="{{ MEDIA_URL }}cat.jpg" alt="Cat" />
 {% endblock %}
